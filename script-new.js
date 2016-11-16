@@ -50,7 +50,6 @@
         $("#video_container div#buttonbar div.time").css("display", "inline-block");
         $("#video_container div#buttonbar button#volumeButton").css("display", "inline-block");
         $("#video_container div#buttonbar button#fullScreen").css("display", "inline-block");
-        $("#video_container div#buttonbar div#progress").css("top", "-20px");
     }
 
     document.getElementById("buttonbar").addEventListener('mouseout', hideBar, false);
@@ -60,7 +59,6 @@
         $("#video_container div#buttonbar div.time").css("display", "none");
         $("#video_container div#buttonbar button#volumeButton").css("display", "none");
         $("#video_container div#buttonbar button#fullScreen").css("display", "none");
-        $("#video_container div#buttonbar div#progress").css("top", "5px");
     }
 
     document.getElementById("volumeButton").addEventListener("click", vidmute, false);
