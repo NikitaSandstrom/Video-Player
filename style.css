@@ -1,0 +1,131 @@
+/*body {
+    width: 1280px;
+    margin: auto;
+    background: #f2f2f2;
+}
+
+p {
+    display: inline;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.test {
+    background: red;
+}
+
+#script {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.active {
+    color: #ffd800;
+}
+
+#buttonbar {
+    background: #000;
+    margin-top: -4px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 50px;
+}
+
+#pause-play {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    margin-top: -15px;
+}
+
+#volume-on-off {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 50px;
+}
+
+#progress-bar {
+    width: 75%;
+    box-sizing: border-box;
+    margin: 0;
+    top: 33%;
+    position: absolute;
+    left:  8%;
+}
+
+.buttons {
+    border: none;
+    width: 27px;
+    height: 30px;
+}
+
+.bar {
+    background: white;
+    height: 15px;
+    width: 500px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+#play-progress {
+    position: absolute;
+    background: red;
+    height: 100%;
+    width: 0%;
+}
+    
+*/
+.pause {
+    background: #000 url(icons/play-icon.png) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.play {
+    background: #000 url(icons/pause-icon.png) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+/*
+.volume-on {
+    background: #000 url(icons/volume-on-icon.png) no-repeat;
+}
+
+.volume-off {
+    background: #000 url(icons/volume-off-icon.png) no-repeat;
+}
+*/
+.full_screen {
+    background: #000 url(icons/fullscreen-icon.png) no-repeat;
+}
+/*
+.current {
+   color: #e6b800; 
+}
+
+#current-time {
+    position: absolute;
+    right: 170px;
+    color: white;
+    font-size: 16px;
+}
+
+#total-time {
+    position: absolute;
+    right: 130px;
+    font-size: 16px;
+    color: white;
+}
+
+.time {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 130px;
+}
+    
+    */

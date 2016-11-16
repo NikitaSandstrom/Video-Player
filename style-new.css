@@ -1,0 +1,154 @@
+body {
+    background: #f2f2f2;
+}
+
+#script p {
+    display: inline;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+#script {
+    max-width: 1248px;
+    margin-top: 10px;
+}
+
+.active {
+    color: #ffd800;
+}
+
+#buttonbar {
+    margin-top: -40px;
+    position: relative;
+    height: 30px;
+    width: 1248px;
+}
+
+.buttons {
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.rightSide {
+    position: absolute;
+    left: 1150px;
+}
+
+.time {
+    color: white;
+    position: absolute;
+    top: 3px;
+    left: 50px;
+}
+
+#progress {
+    position: absolute;
+    top: -20px;
+    left: 5px;
+}
+
+#video_container video {
+	position: static;
+}
+
+#videoControls {
+	display: none;
+}
+
+#video_container button { 
+	position: relative; 
+	float: left; 
+	cursor: pointer;  
+	margin-left: 5px; 
+	border: none;
+	padding-top: 0;
+}
+
+#play { 
+    position: relative; 
+    top: -1px;
+}
+
+#pauseButton { 
+    position: relative;
+    left: -3px;
+    top: -3px;
+    font-size: 13px;           
+}
+
+#fullScreen { 
+    padding-right: 15px;
+    
+}
+
+#video_container .fs-control { 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 2200; 
+}
+
+#progress { 
+	cursor: pointer;
+}
+
+#progress #progress_box { 
+	float: left; 
+	width: 1248px;
+	height: 4px; 
+    
+    background-color: rgba(211,211,211,.1);
+	
+	margin: 2px 0 0 5px; 
+	
+	overflow:hidden; 
+	
+}
+
+#progress #play_progress { 
+	display: block; 
+	width: 0px; 
+	height: 4px; 
+	
+	background-color: #ff8c1a;
+	
+	-webkit-border-radius:5px; -moz-border-radius: 5px; border-radius: 5px; 
+}
+
+#video_container .fullsizeVideo {
+	position: fixed; 
+	left: 0;
+	top: 0;
+}
+
+.pause {
+    background: url(icons/play-icon.png) no-repeat;
+    position: absolute;
+    left: 10px;
+}
+
+.play {
+    background: url(icons/pause-icon.png) no-repeat;
+}
+
+.full_screen {
+    background: url(icons/fullscreen-icon.png) no-repeat;
+}
+
+.volume-on {
+    background: url(icons/volume-on-icon.png) no-repeat;
+    position: absolute;
+    left: 1140px;
+}
+
+.volume-off {
+    background: url(icons/volume-off-icon.png) no-repeat;
+    position: absolute;
+    left: 1140px;
+}
+
+.current {
+   color: #e6b800; 
+}
